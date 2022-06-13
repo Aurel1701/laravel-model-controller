@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     function index () {
-        return view('principal', ['data'=>Movie::all()]);
+        return view('homeMovie', ['data'=>Movie::all()]);
     }
 }
